@@ -61,6 +61,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-2fa](modules/2fa)
 - [react-native-audio-player](modules/audio-player)
 - [react-native-qr-code](modules/qr-code)
+- [react-native-camera](modules/camera)
 
 # Getting started: Frontend
 

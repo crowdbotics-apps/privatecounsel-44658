@@ -63,6 +63,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-qr-code](modules/qr-code)
 - [react-native-camera](modules/camera)
 - [django-signature](backend/modules)
+- [django-paypal](backend/modules)
 
 # Getting started: Frontend
 

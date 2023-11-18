@@ -14,6 +14,15 @@ function api_v1_login_create(payload) {
 function api_v1_signup_create(payload) {
   return privatecounselAPI.post(`/api/v1/signup/`, payload)
 }
+function modules_payments_get_payments_history_retrieve(payload) {
+  return privatecounselAPI.get(`/modules/payments/get_payments_history/`)
+}
+function modules_payments_get_payments_methods_retrieve(payload) {
+  return privatecounselAPI.get(`/modules/payments/get_payments_methods/`)
+}
+function modules_payments_payment_sheet_create(payload) {
+  return privatecounselAPI.post(`/modules/payments/payment_sheet/`)
+}
 function modules_paypal_service_accept_claim_create(payload) {
   return privatecounselAPI.post(
     `/modules/paypal/service/${payload.id}/accept-claim/`
@@ -234,6 +243,9 @@ export const apiService = {
   api_docs_schema_retrieve,
   api_v1_login_create,
   api_v1_signup_create,
+  modules_payments_get_payments_history_retrieve,
+  modules_payments_get_payments_methods_retrieve,
+  modules_payments_payment_sheet_create,
   modules_paypal_service_accept_claim_create,
   modules_paypal_service_activate_plan_create,
   modules_paypal_service_activate_subscription_create,

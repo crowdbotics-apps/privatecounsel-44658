@@ -1461,10 +1461,17 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
+"@modules/2fa@file:./modules/2fa/":
+  version "1.0.1"
+  dependencies:
+    react-native-dropdown-picker "^5.4.6"
+    react-native-qrcode-svg "6.1.2"
+    react-native-svg "12.3.0"
+
 "@modules/audio-player@file:./modules/audio-player":
   version "1.0.0"
 
-"@modules/camera@file:./modules/camera/":
+"@modules/camera@file:./modules/camera":
   version "1.0.1"
   dependencies:
     react-native-actionsheet "^2.4.2"
